@@ -1,0 +1,79 @@
+body {
+    background-color: bisque;
+    font-size: 18px;
+    height: 100vh; /* Задаем высоту всего экрана */
+    text-align: center; /* Центрируем содержимое по горизонтали */
+    display: flex; /* Применяем flex для центрирования содержимого по вертикали */
+    flex-direction: column; /* Отображаем элементы вертикально */
+    justify-content: space-between; /* Равномерно распределяем пространство между элементами */
+    margin-bottom: 100px;
+}
+
+.container {
+    flex-grow: 1; /* Занимаем все доступное пространство по вертикали */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+footer {
+    margin-top: 50px;
+    justify-content: space-around;
+    margin-bottom: 20px; /* Отступ снизу футера */
+}
+
+
+h1 {
+    font-size: 48px;
+    color: #a56f02;
+}
+
+h2{
+    font-size: 42px;
+    color: #a56f02;
+}
+
+.text-content {
+    top: 5px;
+    max-width: 500px;
+}
+
+
+
+a {
+    margin: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #a56f02;
+    
+}
+
+a::after{
+    color: #8c5e03;
+
+}
+
+.croissant-photo img{
+   
+    height: 350px;
+    max-width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
+
+.footer-photo a{
+   margin:0 20px;
+   cursor: pointer;
+   margin-bottom: 100px;
+}
+
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+
+}
