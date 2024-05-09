@@ -1,5 +1,6 @@
 body {
-    background-color: bisque;
+    background-color: #fff0de;
+    
     font-size: 18px;
     height: 100vh; /* Задаем высоту всего экрана */
     text-align: center; /* Центрируем содержимое по горизонтали */
