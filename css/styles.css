@@ -6,7 +6,7 @@ body {
     display: flex; /* Применяем flex для центрирования содержимого по вертикали */
     flex-direction: column; /* Отображаем элементы вертикально */
     justify-content: space-between; /* Равномерно распределяем пространство между элементами */
-    margin-bottom: 100px;
+    margin: 0;
 }
 
 .container {
@@ -40,7 +40,12 @@ h2{
     max-width: 500px;
 }
 
+.contact-wey{
+    color: blue;
+    text-decoration: none;
+    justify-content: space-around;
 
+}
 
 a {
     margin: 20px;
@@ -69,6 +74,35 @@ a::after{
    cursor: pointer;
    margin-bottom: 100px;
 }
+
+
+
+
+
+.text-h2 {
+    margin-top: 20px; /* Уменьшаем отступ сверху */
+    margin-bottom: 10px; /* Уменьшаем отступ снизу */
+}
+
+/* Стили для текста контактов */
+.txt-contact {
+    margin-bottom: 20px; /* Уменьшаем отступ снизу */
+    max-width: 420px;
+    
+
+}
+
+/* Стили для ссылок контактов */
+.contact-wey a {
+    margin-right: 20px; /* Уменьшаем отступ справа */
+    color: blue;
+}
+
+/* Стили для футера */
+.footer-photo {
+    margin-top: 20px; /* Уменьшаем отступ сверху */
+}
+
 
 
 @media screen and (max-width: 600px) {
